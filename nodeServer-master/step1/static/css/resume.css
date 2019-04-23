@@ -1,0 +1,92 @@
+/*reset*/
+*{
+    margin: 0px;
+    padding:0px;
+}
+dl,dt,dd{
+    list-style: none;
+}
+dt{
+	font-size:20px;
+	margin-top: 20px;
+}
+a{
+	text-decoration:none;
+}
+a:link{
+	color:#a8a8a8;
+}
+a:visited{
+	color:#808080;
+}
+/*personal*/
+main{
+	display:flex;
+	width:554px;
+	border:15px inset #ccffcc;
+	margin:20px auto;
+}
+main aside{
+	color:white;
+	background-color:#989898;
+	padding:15px;
+	column-width: 200px;  /*指定列宽*/
+	text-align:center;
+}
+main aside img{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	border:3px solid #ccffcc;
+}
+main aside dt,dd{
+	text-align:left
+}
+/*进度条*/
+main aside dl .probar .progress{
+	width:120px;
+	background:#ddd;
+	display:inline-block;
+	float:right;
+}
+main aside dl .probar::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+main aside dl dd .progress .curRate{
+	width:95%;
+	background:#bbeebb;
+}
+main aside dl dd .round-conner{
+	height:10px;
+	border-radius:5px;
+}
+main aside dl dd .progress .curRate2{
+	width:90%;
+	background:#bbeebb;
+}
+main aside dl dd .progress .curRate3{
+	width:80%;
+	background:#bbeebb;
+}
+main aside dl dd .progress .curRate4{
+	width:85%;
+	background:#bbeebb;
+}
+main aside dl dd .progress .curRate7{
+	width:75%;
+	background:#bbeebb;
+}
+
+main article{
+	background-color:#ffffff;
+	padding:15px;
+}
+main article dl .intr{
+	color:#808080;
+}
+main article dl #etr{
+	margin:0px;
+	text-align:center;
+}

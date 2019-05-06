@@ -1,0 +1,2 @@
+
+run: Istanbul cover **.js
